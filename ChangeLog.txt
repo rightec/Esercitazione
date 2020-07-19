@@ -1,0 +1,8 @@
+# ChangeLog
+Qui c'è il diario dell'esercitazione
+## [1.0.0] - 2020-16-07
+### Created
+
+La pagina di riferimento da copiare è: http://www.rosadanza.it/contatti.htm
+La cartella di progetto è in C:\lavoro\Aggiornamento\FormazioneProfessionale\Futura\Corso\Test_20_Luglio\Esercitazione
+Gestisco le risorse nella cartella assets 

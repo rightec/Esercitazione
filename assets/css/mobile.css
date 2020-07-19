@@ -1,0 +1,151 @@
+/*
+@media only screen and (min-width: 769px) {
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}
+*/
+
+
+/*Common rules for mobile and desktop*/
+body {
+    background: black;
+}
+
+
+.responsive_Menu{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+
+.menu__items {
+    display: inline-block;
+    background: black;
+    width: 100%;
+    padding: 0px;
+    margin: 16px 0px;
+}
+
+ul > li{
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+
+li > a{    
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+
+
+
+.flag_block {
+    display: inline-block;
+    
+    
+}
+
+.flag_block img{
+    display: inline-block;
+    background-color: white;
+    
+}
+
+#googleMap{
+    width: 100%;
+    text-align: center;
+    min-height: 400px;
+}
+
+.content{
+    background: white;
+}
+
+#timeTable{
+    text-align: center;
+    width: 100%;
+}
+
+#formTitle{
+    text-align: center;
+}
+
+#asideForm {
+    padding-bottom: 20px;
+}
+
+#contactForm > label {
+    padding-right: 30px;
+    text-align: left;
+    margin-left: 70px;
+    width: 45%;
+    min-width: 70px;
+}
+
+#contactForm >input{
+    padding-left: 0px;
+    text-align: left;
+    width: 54%;
+}
+
+#formTable{
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+#formTable{
+    font-size: initial;
+}
+
+.formTableLabel{
+    text-align: left;
+}
+
+
+/*Hereafter a default situation for menu flag items
+Valid for all device*/
+
+#FlagIta{
+    display: none;
+}
+
+#FlagEng{
+    display: block
+}
+
+
+/*Use mobile setting*/
+@media only screen and (max-width: 480px) {
+/*Hereafter a default situation for menu items
+To stay in one line of a mobile device*/
+
+#menuCalz{
+    display: none;
+}
+
+#menuAbb{
+    display: none;
+}
+
+#menuReseller{
+    display: none;
+}
+#menuConditions{
+    display: none;
+}
+#menuPrivacy{
+    display: none;
+}
+
+.content > aside{
+    border-style: groove;
+}
+   
+}
