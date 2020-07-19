@@ -110,7 +110,9 @@ li > a{
 
 
 /*Hereafter a default situation for menu flag items
-Valid for all device*/
+Valid for all device
+Both flag should occupy the same room in the DOM
+Flags are mutually exclusive*/
 
 #FlagIta{
     display: none;
